@@ -12,7 +12,7 @@ st.title("💰 Splitwise Dashboard")
 
 CLIENT_ID = st.secrets["CLIENT_ID"]
 CLIENT_SECRET = st.secrets["CLIENT_SECRET"]
-REDIRECT_URI = "http://localhost:8501"
+REDIRECT_URI = "https://splitwise-dashboard-9yvtvmc5gfynj927jr4adt.streamlit.app"
 
 # 🔗 Auth
 auth_url = f"https://secure.splitwise.com/oauth/authorize?client_id={CLIENT_ID}&response_type=code&redirect_uri={REDIRECT_URI}"
